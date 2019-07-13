@@ -1,0 +1,19 @@
+.card {
+    width: 250px;
+    height: 150px;
+    margin: 15px 45px;
+    box-shadow: 2px 2px #999, 0 3px 6px #999;
+    border: 3px solid rgb(211, 208, 208);
+  }
+  .image {
+    width: 250px;
+    height: 150px;
+  }
+  .image:hover {
+    background-color: rgb(237, 240, 243);
+    cursor: pointer;
+    transform: scale(1.2)
+  }
+  .card:hover {
+    background-color: rgb(237, 240, 243)
+  }
