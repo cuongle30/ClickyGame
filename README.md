@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a memorygame created using React.
+This is a memor ygame created using React.
 
 
 ## Instructions
