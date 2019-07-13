@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Navbar from "./components/Form/Navbar/Navbar";
-import Jumbotron from "./components/Form/Jumbotron/Jumbotron"
-import Characters from "./components/Form/Characters/Characters"
+import Navbar from "./components/Navbar/Navbar";
+import Jumbotron from "./components/Jumbotron/Jumbotron"
+import Characters from "./components/Characters/Characters"
 import pictures from"./pictures.json"
 import "./App.css";
 
