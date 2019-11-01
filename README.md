@@ -4,7 +4,7 @@ Link: https://cuongle30.github.io/ClickyGame
 
 ## Overview
 
-This is a memory game created using React with Marvel characters.
+This is a memory game created using React with Marvel characters. Website is built using HTML, CSS, Javascript, Express
 
 
 ## Instructions
