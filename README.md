@@ -1,8 +1,10 @@
 # ClickyGame
 
+Link: https://cuongle30.github.io/ClickyGame
+
 ## Overview
 
-This is a memory game created using React.
+This is a memory game created using React with Marvel characters.
 
 
 ## Instructions
