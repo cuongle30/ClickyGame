@@ -13,13 +13,13 @@ class App extends Component {
     score: 0,
     highscore: 0
   };
-//when you click on a card ... the fish is taken out of the array
+//when you click on a card ... the image is taken out of the array
 imageClick = event => {
   const currentCard = event.target.alt;
   const alreadySelected =
     this.state.clickedcard.indexOf(currentCard) > -1;
 
-//if you click on a fish that has already been selected, the game is reset and cards reordered
+//if you click on a image that has already been selected, the game is reset and cards reordered
   if (alreadySelected) {
     this.setState({
       fish: this.state.pictures.sort(function(a, b) {
@@ -30,7 +30,7 @@ imageClick = event => {
     });
       alert("You lose. Try Again!");
 
-//if you click on an available fish, your score is increased and cards reordered
+//if you click on an available image, your score is increased and cards reordered
   } else {
     this.setState(
       {
@@ -42,7 +42,7 @@ imageClick = event => {
         ),
         score: this.state.score + 1
       },
-//if you get all 12 fish corrent you get a congrats message and the game resets        
+//if you get all 12 image corrent you get a congrats message and the game resets        
       () => {
         if (this.state.score === 12) {
           alert("You Win!");
